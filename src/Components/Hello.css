@@ -1,0 +1,21 @@
+.hello {
+  background-color: rgb(2, 163, 163);
+  text-align: center;
+  min-height: 80vh;
+  color: white;
+}
+.hello > h1 {
+  margin: 100px 5px 25px 5px;
+}
+.hello > p {
+  margin: 25px 5px;
+}
+.hello_btn {
+  background-color: rgb(2, 163, 163);
+  color: white;
+  cursor: pointer;
+  padding: 10px 50px;
+  border-left: 50%;
+  border-radius: 50px;
+  border: 2px solid white;
+}

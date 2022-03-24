@@ -1,0 +1,19 @@
+body {
+  min-height: 100vh;
+  color: white;
+}
+.App {
+  /* width: 60%; */
+  margin-top: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.App_components {
+  display: flex;
+  width: 60%;
+  background-color: whitesmoke;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,60 @@
+.signin_container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signin_content {
+  text-align: center;
+  background-color: aliceblue;
+  width: 40%;
+}
+.about {
+  color: black;
+}
+.heading {
+  color: rgb(2, 163, 163);
+}
+input {
+  border: none;
+  padding: 8px 20px;
+}
+.signin_input {
+  /* margin-bottom: 10px; */
+}
+.recovery {
+  color: black;
+  position: relative;
+  margin-bottom: 10px;
+}
+.recovery::after {
+  content: "";
+  position: absolute;
+  top: 1.8rem;
+  left: 11rem;
+
+  width: 28%;
+  height: 2px;
+  background-color: antiquewhite;
+}
+.para {
+  color: red;
+}
+.signin_btn {
+  margin-top: 15px;
+  margin-bottom: 10px;
+
+  cursor: pointer;
+  background-color: rgb(2, 163, 163);
+  color: white;
+  padding: 10px 50px;
+  border-left: 50%;
+  border-radius: 50px;
+  border: 2px solid white;
+}
+.lastMessage {
+  margin-top: 10px;
+  font-size: 2rem;
+  font-weight: 500;
+  color: rgb(55, 90, 4);
+}

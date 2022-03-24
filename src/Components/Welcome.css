@@ -1,0 +1,26 @@
+.welcome {
+  background-color: rgb(131, 238, 158);
+  min-height: 80vh;
+  text-align: center;
+
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+}
+.welcome_heading {
+  margin: 100px 5px 25px 5px;
+  color: white;
+}
+.welcome > p {
+  margin: 25px 5px;
+  color: white;
+}
+.welcome_btn {
+  cursor: pointer;
+  background-color: rgb(131, 238, 158);
+  color: white;
+  padding: 10px 50px;
+  border-left: 50%;
+  border-radius: 50px;
+  border: 2px solid white;
+}
